@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
-main{
-    
-   
+#pagina{
+    background-color: darkslategray;
+    height: 100vh;
 }
 
 #cabecalho{
-    
-    
-   
+    background-color: aqua;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    place-items: center;
     
 }
 
